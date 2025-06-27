@@ -1,0 +1,17 @@
+{
+  "name": "youtube-downloader-api",
+  "version": "1.0.0",
+  "description": "API para descargar videos o audio de YouTube usando @distube/ytdl-core",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["youtube", "downloader", "api", "ytdl-core", "ffmpeg"],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "dependencies": {
+    "@distube/ytdl-core": "^4.16.12",
+    "express": "^4.19.2",
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
