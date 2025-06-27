@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: youtube-downloader-api
-    env: node
-    plan: free
-    buildCommand: npm install
-    startCommand: npm start
-    autoDeploy: true
